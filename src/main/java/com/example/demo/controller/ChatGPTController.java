@@ -15,5 +15,5 @@ public class ChatGPTController {
     @GetMapping("/test")
     public String test() {
         return "chatgpt/test";
-    }
+    } 
 } 
