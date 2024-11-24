@@ -10,10 +10,4 @@ public class ChatGPTController {
     public String chatgptIntro() {
         return "chatgpt/intro";
     }
-
-
-    @GetMapping("/test")
-    public String test() {
-        return "chatgpt/test";
-    }
 } 
