@@ -26,4 +26,9 @@ public class ChatGPTController {
     public String test3() {
         return "chatgpt/test3";
     }
+
+    @GetMapping("/test4")
+    public String test4() {
+        return "chatgpt/test4";
+    }
 } 
